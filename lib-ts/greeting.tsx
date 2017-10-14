@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 /**
  * This module will be hot-reloaded and rendered upon modification

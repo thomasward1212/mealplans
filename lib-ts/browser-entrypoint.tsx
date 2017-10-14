@@ -12,7 +12,7 @@ type HMRModule = typeof module & {
 };
 
 import * as m from "./m";
-import { Greeting } from './greeting';
+import { Greeting } from "./greeting";
 
 if ($$webpack_dev && (module as HMRModule).hot) {
     // dev w/ HMR: hot-reload './m', './greeting' and re-render
