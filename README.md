@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # typescript-boilerplate
 
 A boilerplate for TypeScript projects.
@@ -154,3 +155,6 @@ $ npm run test:coverage
 #### License
 
 MIT
+=======
+# mealplans
+>>>>>>> bd260613754c5d8832eccd6c7e7e21858df00e3a
