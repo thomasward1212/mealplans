@@ -2,7 +2,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 
 import * as m from "./browser/m";
-import { Greeting } from "./browser/greeting";
+import { App } from "./browser/index";
 import { webpack_dev, haveHMR, } from "./browser/webpack-hmr";
 
 if (webpack_dev && haveHMR(module)) {
@@ -22,5 +22,5 @@ if (webpack_dev && haveHMR(module)) {
 renderRoot(m.v);
 
 function renderRoot(v: number) {
-    ReactDOM.render(<Greeting val={v} />, document.body.firstElementChild);
+    ReactDOM.render(<App />, document.body.firstElementChild);
 }

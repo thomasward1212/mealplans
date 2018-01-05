@@ -15,7 +15,7 @@
         "sourceMap": false,
         "listEmittedFiles": false,
         "emitDecoratorMetadata": true,
-        "jsx": "react",
+		"jsx": "react",
         "pretty": true,
         "module": "commonjs",
         "importHelpers": true
@@ -23,7 +23,7 @@
     "exclude": [
         "node_modules"
     ],
-    "compileOnSave": false,
+    "compileOnSave": true,
     "atom": {
         "rewriteTsconfig": false
     }
