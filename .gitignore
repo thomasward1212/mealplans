@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+# dependencies
+/node_modules
+
+# testing
+/.nyc_output/
+/coverage
+
+# browser bundles
+/public/static/
+/public/stats.html
+
+# misc
+/tmp
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+.idea
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# preserved
+!.gitkeep
+=======
 # Logs
 logs
 *.log
@@ -57,3 +86,4 @@ typings/
 # dotenv environment variables file
 .env
 
+>>>>>>> bd260613754c5d8832eccd6c7e7e21858df00e3a
